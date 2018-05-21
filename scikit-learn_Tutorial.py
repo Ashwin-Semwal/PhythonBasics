@@ -19,7 +19,29 @@ Y = ['male', 'male', 'female', 'female', 'male', 'male', 'female', 'female',
 # CHALLENGE - ...and train them on our data
 clf = clf.fit(X, Y)
 
-prediction = clf.predict([[190, 70, 43]])
+prediction = clf.predict([[160, 70, 43]])
+
+# CHALLENGE compare their reusults and print the best one!
+
+print(prediction)
+
+
+prediction = clf.predict([[34, 3, 42]])
+
+# CHALLENGE compare their reusults and print the best one!
+
+print(prediction)
+prediction = clf.predict([[123, 70, 43]])
+
+# CHALLENGE compare their reusults and print the best one!
+
+print(prediction)
+prediction = clf.predict([[180, 70, 40]])
+
+# CHALLENGE compare their reusults and print the best one!
+
+print(prediction)
+prediction = clf.predict([[156, 50, 34]])
 
 # CHALLENGE compare their reusults and print the best one!
 
